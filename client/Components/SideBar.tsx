@@ -34,7 +34,7 @@ const NavBar = (props: any) => {
   const createSidebarStyle = () => {
     let styleObj = { height: '94%', position: 'relative', top: '0%' };
     if ((window as any).innerWidth < 600) {
-      styleObj = open ? { height: '70%', position: 'absolute', top: '30%' } : { height: '20%', position: 'absolute', top: '75%' };
+      styleObj = open ? { height: '70%', position: 'absolute', top: '35%' } : { height: '20%', position: 'absolute', top: '80%' };
     }
     const homeAbout = { backgroundColor: 'rgba(0,0,0,0)' };
 
